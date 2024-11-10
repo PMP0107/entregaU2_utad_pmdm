@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_app"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Imagen de la bandera -->
+    <ImageView
+        android:id="@+id/imageViewBandera"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/iv_bandera" />
+
+    <!-- Campo de texto para editar el nombre de la autonomía -->
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tv_nombreAuton"
+        android:importantForAutofill="yes"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="16sp" />
+
+    <!-- Botón para confirmar cambios -->
+    <Button
+        android:id="@+id/buttonCambiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/background_component"
+        android:text="@string/bt_cambiar"
+        android:textColor="@color/white" />
+
+    <!-- Botón para cancelar y volver -->
+    <Button
+        android:id="@+id/buttonCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/background_component"
+        android:text="@string/bt_cancelar"
+        android:textColor="@color/white" />
+</LinearLayout>

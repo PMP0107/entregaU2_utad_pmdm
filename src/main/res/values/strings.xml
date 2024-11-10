@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">prueba1_final_u2_utad</string>
+    <string name="tv_nombreAuton">Nombre de la Autonomía</string>
+    <string name="bt_cambiar">Cambiar</string>
+    <string name="bt_cancelar">Cancelar</string>
+    <string name="iv_bandera">bandera</string>
+    <string name="me_recargar">Recargar</string>
+    <string name="me_limpiar">Limpiar</string>
+</resources>

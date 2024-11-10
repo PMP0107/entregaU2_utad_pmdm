@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_nombreAuton">Autonomy Name</string>
+    <string name="bt_cambiar">Change</string>
+    <string name="bt_cancelar">Cancel</string>
+    <string name="iv_bandera">flag</string>
+    <string name="me_recargar">Recharge</string>
+    <string name="me_limpiar">Clean</string>
+</resources>
